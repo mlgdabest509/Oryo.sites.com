@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(25, 3, 31);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#grid {
+    background-color: rgb(37, 10, 71);
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+}
+
+#snake-head {
+    background-color:rgb(147, 32, 255);
+    border: .4vmin solid black;
+}
+
+#apple {
+    background-color:rgb(255, 32, 88);
+    border: .4vmin solid black;
+}
